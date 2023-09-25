@@ -1,0 +1,75 @@
+.qos-collocation-together {
+
+    &--elastic-1-1fr {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    &--elastic-2-1fr {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &--elastic-3-1fr {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    &--elastic-4-1fr {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    &--elastic-5-1fr {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    &--elastic-1-0 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    &--elastic-2-0 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    &--elastic-3-0 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    &--elastic-4-0 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    &--elastic-5-0 {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+}
+
+.qos-distance {
+
+    &--1-1rem {
+        grid-gap: 1rem;
+    }
+
+    &--1-2rem {
+        grid-gap: 2rem;
+    }
+
+    &--1-3rem {
+        grid-gap: 3rem;
+    }
+
+    &--1-4rem {
+        grid-gap: 4rem;
+    }
+
+    &--1-5rem {
+        grid-gap: 5rem;
+    }
+}
