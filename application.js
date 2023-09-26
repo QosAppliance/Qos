@@ -22,8 +22,8 @@ application.get('/', function(_, response) {
 
 application.get('/os', function(_, response) {
 
-    response.end(process.env.vacant)
+    response.end(process.env.port)
 
 })
 
-application.listen(process.env.vacant)
+application.listen(process.env.port)
